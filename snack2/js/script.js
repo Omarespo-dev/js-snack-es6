@@ -36,8 +36,16 @@ for(let i = 0; i < squadreCalcio.length; i++){
     squadraIesima["falli subiti"] =  randomNumeri(80)
     console.log(squadraIesima)
 
-
-    // Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.?????
-   
 }
+
+// Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.?????
+const arrayEmpty=[]
+
+for(let i = 0; i < squadreCalcio.length; i++ ){
+    let squadraIesima= squadreCalcio[i]
+
+    arrayEmpty.push(squadraIesima.nome)
+    arrayEmpty.push(squadraIesima["falli subiti"])
+}
+console.log(arrayEmpty)
 
