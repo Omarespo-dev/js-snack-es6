@@ -26,5 +26,5 @@ for(let i = 0; i < biciCorsa.length; i++){
     let biciPeso=biciIesima.peso
     console.log(biciPeso)
     // prendimi il numero minore dall array
-    
+    // ??
 }                
