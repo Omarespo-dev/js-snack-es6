@@ -21,10 +21,14 @@ const biciCorsa = [
 // Utilizzo un ciclo for dove gli dico ciclami dentro a bicicorsa finche cnon trovi "il peso minore "
 for(let i = 0; i < biciCorsa.length; i++){
     let biciIesima= biciCorsa[i]
-    // console.log(biciIesima)
-
-    let biciPeso=biciIesima.peso
-    console.log(biciPeso)
+    console.log(biciIesima)
+    
     // prendimi il numero minore dall array
-    // ??
+    let biciLeggera = biciCorsa[0]
+    
+    if(biciIesima < biciLeggera){
+
+    }
 }                
+
+
